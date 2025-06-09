@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from "../components/Header";
 import Card from "../components/Card";
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [name, setName] = useState('Alexandre');
@@ -17,7 +17,7 @@ const Home = () => {
           <input type="text" value={name} onChange={handleValue} className='bg-white w-64 text-black pl-2 py-1.5 flex '/>  
         </div>
         <Card name={name} />
-        
+
       </main>
       <Footer />
     </div>
